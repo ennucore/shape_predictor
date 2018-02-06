@@ -1,0 +1,21 @@
+[package]
+name = "shape_predictor"
+version = "0.1.0"
+authors = ["Ashley <expenses@airmail.cc>"]
+repository = "https://github.com/expenses/shape_predictor"
+license = "MIT"
+
+
+[dependencies]
+image = "0"
+nalgebra = "0"
+num-traits = "0"
+nom = "3"
+serde = "1"
+serde_derive = "1"
+bincode = "0"
+
+[dev-dependencies]
+line_drawing = "*"
+rustface = "*"
+videostream = {git = "https://github.com/expenses/videostream"}
